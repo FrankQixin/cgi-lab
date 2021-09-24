@@ -1,0 +1,18 @@
+1.
+print(os.environ)
+json_object = json.dumps(dict(os.environ))
+print(json_object)
+
+2.Query string
+
+3.HTTP_USER_AGENT
+
+4.cgi.FieldStorage()
+
+5.Set-Cookie: key=value
+
+6.cookie = SimpleCookie(os.environ["HTTP_COOKIE"])
+
+7.Cookies stores client information locally.It is is automatically stored in the browser when responding to a request.
+
+8.https://github.com/FrankQixin/cgi-lab.git
